@@ -83,3 +83,5 @@ production:
   database: hashly_production
   username: hashly
   password: <%= ENV['HASHLY_DATABASE_PASSWORD'] %>
+  host: <%= ENV['HASHLY_DATABASE_HOST'] %>
+  port: <%= ENV['HASHLY_DATABASE_PORT'] %>
